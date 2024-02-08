@@ -9,7 +9,7 @@ import { ParallaxProvider } from "react-scroll-parallax";
 /*
 COMPONENTES
 */
-import Parallax from "./components/Parallax/PARALLAX";
+
 import InfoCentered from "./components/Info/INFO";
 import Divisor from "./components/Div secciones/DIVISOR";
 import Blog from "./components/Blog/BLOG";
@@ -17,12 +17,13 @@ import Gallery from "./components/Galería/GALLERY";
 import Divisor2 from "./components/Div secciones/DIVISOR-2";
 import ContactForm from "./components/Contact/CONTACT";
 import Footer from "./components/Footer nav/FOOTER";
+import Parallax_2 from "./components/Parallax_2/PARALLAX_2";
 
 function App() {
   return (
     <>
       <ParallaxProvider>
-        <Parallax />
+        <Parallax_2 />
         <main>
           <InfoCentered />
           <Divisor />

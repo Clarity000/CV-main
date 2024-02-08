@@ -85,6 +85,17 @@ LAYERS
     top: 26.6%;
     z-index: 20;
 }
+
+
+
+
+.base {
+    position: absolute;
+    width: 100%;
+    height: 83%;
+    bottom: -9rem;
+    z-index: 60;
+}
  
 
 
