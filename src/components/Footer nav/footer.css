@@ -1,0 +1,56 @@
+
+.example-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.icon-content {
+  margin: 0 10px;
+  position: relative;
+}
+.tooltip {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.icon-content:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  top: -50px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #ccc;
+  background-color: rgba(45, 0, 239, 1);
+  transition: all 0.3s ease-in-out;
+}
+.link:hover {
+  box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.link svg {
+  width: 1.7rem;
+}
+.link[data-social="whatsapp"]:hover {
+  color: #25d366;
+}
+.link[data-social="instagram"]:hover {
+  color: #bf08b3;
+}
+.link[data-social="telegram"]:hover {
+  color: #0088cc;
+}

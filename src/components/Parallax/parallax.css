@@ -1,0 +1,81 @@
+.parallax-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    position: absolute;
+    bottom: 5rem;
+    z-index: 30;
+    animation: animacion 4s ease;
+}
+
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        bottom: 30rem;
+        opacity: 1;
+    }
+}
+
+
+/*
+CONTAINER
+*/
+
+.parallax-effect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 57rem;
+    margin-bottom: 5rem;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, rgba(1, 0, 15, 1), rgba(15, 23, 42, .3), rgba(15, 23, 42, .7), rgba(6, 182, 212, .3), rgba(6, 182, 212, 1));
+}
+
+
+/*
+LAYERS
+*/
+
+.layer-1 {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 93.5%;
+    z-index: 50;
+}
+
+.layer-2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 88.2%;
+    height: 71%;
+    z-index: 40;
+}
+
+.layer-3 {
+    position: absolute;
+    width: 78%;
+    bottom: 20%;
+    z-index: 30;
+}
+
+.layer-4 {
+    position: absolute;
+    width: 36%;
+    left: 36.5%;
+    top: 26.6%;
+    z-index: 20;
+}
+ 

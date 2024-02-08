@@ -1,0 +1,32 @@
+.contenedor-img {
+    display: flex;
+    gap: 1rem;
+    width: 26rem;
+    height: 18.3rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, .05);
+    border-radius: 1rem;
+}
+
+#palmera {
+    width: 12.15rem;
+}
+
+.segunda-columna {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.columnas-siguientes {
+    display: grid;
+    grid-template-columns: repeat(9, 14rem);
+    grid-template-rows: 9.6rem 9.6rem;
+}
+
+.contenedor-img img {
+    width: 13rem;
+}
+
