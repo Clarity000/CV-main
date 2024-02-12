@@ -23,7 +23,11 @@ function InfoCentered() {
       </div>
       <div className="divisor-container">
         <hr />
-        <img className="divisor-img" src="./src/assets/circulo.svg" alt="circulo girando en radio de aro" />
+        <img
+          className="divisor-img"
+          src="./src/assets/circulo.svg"
+          alt="circulo girando en radio de aro"
+        />
       </div>
       <div className="texto-2">
         <h3>Experiencia:</h3>
@@ -34,42 +38,46 @@ function InfoCentered() {
         </p>
       </div>
       <div className="brand-container">
-        <img
-          className="logo"
-          src="./src/assets/logos/html_logo.png"
-          alt="html logo"
-        />
-        <img
-          className="logo"
-          src="./src/assets/logos/css_logo.png"
-          alt="css logo"
-        />
-        <img
-          className="logo"
-          src="./src/assets/logos/js_logo.png"
-          alt="js logo"
-        />
-        <img
-          className="logo"
-          src="./src/assets/logos/react_logo.png"
-          alt="react logo"
-        />
-        <img
-          className="logo"
-          src="./src/assets/logos/tailwind_logo.png"
-          alt="tailwind logo"
-        />
-        <img
-          className="logo"
-          src="./src/assets/logos/figma_logo.png"
-          alt="figma logo"
-        />
-        <img
-          className="logo"
-          src="./src/assets/logos/vs_code_logo.png"
-          alt="vs code logo"
-        />
-        <img className="logo" src="./src/assets/logos/jira_logo.png" alt="" />
+        <div className="brand-line">
+          <img
+            className="logo"
+            src="./src/assets/logos/html_logo.png"
+            alt="html logo"
+          />
+          <img
+            className="logo"
+            src="./src/assets/logos/css_logo.png"
+            alt="css logo"
+          />
+          <img
+            className="logo"
+            src="./src/assets/logos/js_logo.png"
+            alt="js logo"
+          />
+          <img
+            className="logo"
+            src="./src/assets/logos/react_logo.png"
+            alt="react logo"
+          />
+        </div>
+        <div className="brand-line">
+          <img
+            className="logo"
+            src="./src/assets/logos/tailwind_logo.png"
+            alt="tailwind logo"
+          />
+          <img
+            className="logo"
+            src="./src/assets/logos/figma_logo.png"
+            alt="figma logo"
+          />
+          <img
+            className="logo"
+            src="./src/assets/logos/vs_code_logo.png"
+            alt="vs code logo"
+          />
+          <img className="logo" src="./src/assets/logos/jira_logo.png" alt="" />
+        </div>
       </div>
       <div>
         <p></p>

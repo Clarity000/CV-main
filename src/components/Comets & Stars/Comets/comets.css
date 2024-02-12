@@ -1,0 +1,120 @@
+
+
+
+
+
+.space .cont-1 {
+    position: absolute;
+    top: 30vh;
+    right: 28vw;
+    opacity: 0;
+    animation: caida linear 4s infinite;
+
+    z-index: 20;
+  }
+
+@keyframes caida {
+    0% {
+        top: -35vh;
+        right: -20vw;
+        opacity: 0;
+    }
+    50% {
+        top: -1vh;
+        right: 4vw;
+        opacity: 1;
+    }
+    100% {
+        top: 31vh;
+        right: 24vw;
+        opacity: 0;
+    }
+}
+
+.space .cont-2 {
+    position: absolute;
+    top: -120vh;
+    left: 95vw;
+    opacity: 0;
+    z-index: 20;
+
+    animation: caida-2 linear 3s infinite;
+}
+@keyframes caida-2 {
+    0% {
+        top: -50;
+        right: 80vw;
+        opacity: 1;
+    }
+    50% {
+        top: 10vh;
+        left: 20vw;
+        opacity: .6;
+    }
+    100% {
+        top: 90vh;
+        left: -27vw;
+        opacity: 0;
+    }
+}
+
+.space .cont-3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+
+    animation: caida-3 linear 4s infinite;
+}
+
+@keyframes caida-3 {
+    0% {
+        
+    }
+    50% {
+        
+    }
+    100% {
+        
+    }
+}
+
+.space .cont-4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+
+    animation: caida-4 linear 4s infinite;
+}
+
+@keyframes caida-4 {
+    0% {
+        
+    }
+    50% {
+        
+    }
+    100% {
+        
+    }
+}
+
+
+.space .cont-5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 20;
+
+    animation: caida-4 linear 4s infinite;
+}
+
+@keyframes caida-5 {
+    0% {
+    }
+    50% {
+    }
+    100% {
+    }
+}
