@@ -1,5 +1,7 @@
 import "./blog.css";
 
+import muestraBlog from '../../assets/muestra_blog.png';
+
 function Blog() {
   return (
     /* la clase secciones hace referencia a los contenedores de blog y gallery y su código CSS se encuentra en App.css */
@@ -12,7 +14,7 @@ function Blog() {
       <div className="contenedor-muestra-blog">
         <img
           className="muestra-blog"
-          src="../../public/assets/muestra_blog.png"
+          src={muestraBlog}
           alt="imagen de muestra de un blog"
         />
       </div>

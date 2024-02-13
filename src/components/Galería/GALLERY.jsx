@@ -1,5 +1,7 @@
 import "./gallery.css";
 
+import foto1 from '../../assets/img-gallery/1.webp'
+
 function Gallery() {
   return (
     /* la clase secciones hace referencia a los contenedores de blog y gallery y su código CSS se encuentra en App.css */
@@ -22,7 +24,7 @@ function Gallery() {
           <img src="./public/assets/img-gallery/12.webp" alt="" />
           <img src="./public/assets/img-gallery/19.webp" alt="" />
           <img src="./public/assets/img-gallery/2.webp" alt="" />
-          <img src="./public/assets/img-gallery/1.webp" alt="" />
+          <img src={foto1} alt="" />
           <img src="./public/assets/img-gallery/11.webp" alt="" />
           <img src="./public/assets/img-gallery/20.webp" alt="" />
           <img src="./public/assets/img-gallery/14.webp" alt="" />

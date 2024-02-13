@@ -1,5 +1,15 @@
 import "./info.css";
 
+import circulo from '../../assets/circulo.svg';
+import htmlLogo from '../../assets/logos/html_logo.png'
+import cssLogo from '../../assets/logos/css_logo.png'
+import figmaLogo from '../../assets/logos/figma_logo.png'
+import jiraLogo from '../../assets/logos/jira_logo.png'
+import jsLogo from '../../assets/logos/js_logo.png'
+import reactLogo from '../../assets/logos/react_logo.png'
+import vsCodeLogo from '../../assets/logos/vs_code_logo.png'
+import tailwindLogo from '../../assets/logos/tailwind_logo.png'
+
 function InfoCentered() {
   return (
     <section className="info">
@@ -25,7 +35,7 @@ function InfoCentered() {
         <hr />
         <img
           className="divisor-img"
-          src="./public/assets/circulo.svg"
+          src={circulo}
           alt="circulo girando en radio de aro"
         />
       </div>
@@ -41,42 +51,42 @@ function InfoCentered() {
         <div className="brand-line">
           <img
             className="logo"
-            src="./public/assets/logos/html_logo.png"
+            src={htmlLogo}
             alt="html logo"
           />
           <img
             className="logo"
-            src="./public/assets/logos/css_logo.png"
+            src={cssLogo}
             alt="css logo"
           />
           <img
             className="logo"
-            src="./public/assets/logos/js_logo.png"
+            src={jsLogo}
             alt="js logo"
           />
           <img
             className="logo"
-            src="./public/assets/logos/react_logo.png"
+            src={reactLogo}
             alt="react logo"
           />
         </div>
         <div className="brand-line">
           <img
             className="logo"
-            src="./public/assets/logos/tailwind_logo.png"
+            src={tailwindLogo}
             alt="tailwind logo"
           />
           <img
             className="logo"
-            src="./public/assets/logos/figma_logo.png"
+            src={figmaLogo}
             alt="figma logo"
           />
           <img
             className="logo"
-            src="./public/assets/logos/vs_code_logo.png"
+            src={vsCodeLogo}
             alt="vs code logo"
           />
-          <img className="logo" src="./public/assets/logos/jira_logo.png" alt="" />
+          <img className="logo" src={jiraLogo} alt="logo de Jira" />
         </div>
       </div>
       <div>
