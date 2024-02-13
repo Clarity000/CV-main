@@ -10,6 +10,8 @@ function Footer() {
             data-social="whatsapp"
             aria-label="Whatsapp"
             href="https://wa.me/543513965375"
+            rel="noreferrer"
+            target="_blank"
           >
             <svg
               viewBox="0 0 23 23"
@@ -50,6 +52,8 @@ function Footer() {
             data-social="telegram"
             aria-label="Telegram"
             href="https://telegram.org/"
+            rel="noreferrer"
+            target="_blank"
           >
             <svg viewBox="0 0 100 100" version="1.1">
               <path
