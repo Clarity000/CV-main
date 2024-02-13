@@ -13,9 +13,7 @@ import tailwindLogo from '../../assets/logos/tailwind_logo.png'
 function InfoCentered() {
   return (
     <section className="info">
-      <img src="" alt="" />
       <header className="titulo">
-        <img src="" alt="" />
         <h2>
           Mi nombre es Nicolás y soy <span> FrontEnd Developer</span>
         </h2>
