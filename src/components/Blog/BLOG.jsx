@@ -12,7 +12,7 @@ function Blog() {
       <div className="contenedor-muestra-blog">
         <img
           className="muestra-blog"
-          src="./public/assets/muestra_blog.png"
+          src="../../public/assets/muestra_blog.png"
           alt="imagen de muestra de un blog"
         />
       </div>
