@@ -25,7 +25,7 @@ function InfoCentered() {
         <hr />
         <img
           className="divisor-img"
-          src="./src/assets/circulo.svg"
+          src="./public/assets/circulo.svg"
           alt="circulo girando en radio de aro"
         />
       </div>
@@ -41,42 +41,42 @@ function InfoCentered() {
         <div className="brand-line">
           <img
             className="logo"
-            src="./src/assets/logos/html_logo.png"
+            src="./public/assets/logos/html_logo.png"
             alt="html logo"
           />
           <img
             className="logo"
-            src="./src/assets/logos/css_logo.png"
+            src="./public/assets/logos/css_logo.png"
             alt="css logo"
           />
           <img
             className="logo"
-            src="./src/assets/logos/js_logo.png"
+            src="./public/assets/logos/js_logo.png"
             alt="js logo"
           />
           <img
             className="logo"
-            src="./src/assets/logos/react_logo.png"
+            src="./public/assets/logos/react_logo.png"
             alt="react logo"
           />
         </div>
         <div className="brand-line">
           <img
             className="logo"
-            src="./src/assets/logos/tailwind_logo.png"
+            src="./public/assets/logos/tailwind_logo.png"
             alt="tailwind logo"
           />
           <img
             className="logo"
-            src="./src/assets/logos/figma_logo.png"
+            src="./public/assets/logos/figma_logo.png"
             alt="figma logo"
           />
           <img
             className="logo"
-            src="./src/assets/logos/vs_code_logo.png"
+            src="./public/assets/logos/vs_code_logo.png"
             alt="vs code logo"
           />
-          <img className="logo" src="./src/assets/logos/jira_logo.png" alt="" />
+          <img className="logo" src="./public/assets/logos/jira_logo.png" alt="" />
         </div>
       </div>
       <div>

@@ -17,7 +17,7 @@
     width: 100%;
     height: 100vh;
     min-height: 70vh;
-    background-image: url(./src/assets/parallax_2/tierra-1.png);
+    background-image: url(./public/assets/parallax_2/tierra-1.png);
     background-size: cover;
     background-position: center;
     z-index: 100;
@@ -28,7 +28,7 @@
     width: 100%;
     height: 100vh;
     min-height: 70vh;
-    background-image: url(./src/assets/parallax_2/tierra-2.png);
+    background-image: url(./public/assets/parallax_2/tierra-2.png);
     background-size: cover;
     background-position: center;
     z-index: 90;
@@ -39,7 +39,7 @@
     width: 100%;
     height: 100vh;
     min-height: 70vh;
-    background-image: url(./src/assets/parallax_2/tierra-3.png);
+    background-image: url(./public/assets/parallax_2/tierra-3.png);
     background-size: cover;
     background-position: center;
     z-index: 80;
@@ -50,7 +50,7 @@
     width: 100%;
     height: 100vh;
     min-height: 70vh;
-    background-image: url(./src/assets/parallax_2/tierra-4.png);
+    background-image: url(./public/assets/parallax_2/tierra-4.png);
     background-size: cover;
     background-position: center;
     z-index: 70;
@@ -60,7 +60,7 @@
     position: absolute;
     width: 130rem;
     height: 80rem;
-    background-image: url(./src/assets/parallax_2/tierra-5.png);
+    background-image: url(./public/assets/parallax_2/tierra-5.png);
     background-size: cover;
     background-position: center;
     z-index: 110;
@@ -72,7 +72,7 @@
     position: absolute;
     width: 100%;
     height: 70vh;
-    background-image: url(./src/assets/parallax_2/planeta.png);
+    background-image: url(./public/assets/parallax_2/planeta.png);
     background-size: cover;
     background-position: center;
     z-index: 60;
