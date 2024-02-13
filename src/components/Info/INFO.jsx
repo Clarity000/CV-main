@@ -1,14 +1,14 @@
 import "./info.css";
 
-import circulo from '../../../public/assets/circulo.svg';
-import htmlLogo from '../../../public/assets/logos/html_logo.png'
-import cssLogo from '../../../public/assets/logos/css_logo.png'
-import figmaLogo from '../../../public/assets/logos/figma_logo.png'
-import jiraLogo from '../../../public/assets/logos/jira_logo.png'
-import jsLogo from '../../../public/assets/logos/js_logo.png'
-import reactLogo from '../../../public/assets/logos/react_logo.png'
-import vsCodeLogo from '../../../public/assets/logos/vs_code_logo.png'
-import tailwindLogo from '../../../public/assets/logos/tailwind_logo.png'
+import circulo from '/public/assets/circulo.svg';
+import htmlLogo from '/public/assets/logos/html_logo.png'
+import cssLogo from '/public/assets/logos/css_logo.png'
+import figmaLogo from '/public/assets/logos/figma_logo.png'
+import jiraLogo from '/public/assets/logos/jira_logo.png'
+import jsLogo from '/public/assets/logos/js_logo.png'
+import reactLogo from '/public/assets/logos/react_logo.png'
+import vsCodeLogo from '/public/assets/logos/vs_code_logo.png'
+import tailwindLogo from '/public/assets/logos/tailwind_logo.png'
 
 function InfoCentered() {
   return (
