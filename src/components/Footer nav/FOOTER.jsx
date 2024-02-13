@@ -28,6 +28,8 @@ function Footer() {
             data-social="instagram"
             aria-label="Instagram"
             href="https://www.instagram.com/nicolas.moyano.725/"
+            rel="noreferrer"
+            target="_blank"
           >
             <svg
               viewBox="0 0 24 23"
