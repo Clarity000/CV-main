@@ -1,6 +1,6 @@
 import "./gallery.css";
 
-import foto1 from '../../assets/img-gallery/1.webp'
+import foto1 from '../../../public/assets/img-gallery/1.webp'
 
 function Gallery() {
   return (

@@ -1,6 +1,6 @@
 import "./blog.css";
 
-import muestraBlog from '../../assets/muestra_blog.png';
+import muestraBlog from '../../../public/assets/muestra_blog.png';
 
 function Blog() {
   return (
